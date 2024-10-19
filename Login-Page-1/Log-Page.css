@@ -1,0 +1,98 @@
+/*--------------------------------------------------For All Start--------------------------------------------------*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*---------------------------------------------------For All End---------------------------------------------------*/
+
+
+/*-------------------------------------------------Parent Div Start------------------------------------------------*/
+.Login-Page{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg,#ffafbd,#ffc3a0);
+    padding: 10px;
+}
+
+
+/*--------------------------------------------------Child 1 Start--------------------------------------------------*/
+.Enter-Details{
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 75px auto 20px;
+    padding-bottom: 220px;
+    border-radius: 10px;
+    padding-top: 1px; /*isko dene ke baad niche margin apply hua nhi diya tha toh apply kyu nhi huya margin niche*/
+}
+
+
+/* Topmost Logo */
+#Login-Logo{
+    height: 40px;
+    width: 40px;
+    display: block;             /* Makes the image a block element */
+    margin: 20px auto 10px;     /* Centers the image horizontally */
+}
+
+
+/* Welcome */
+.Enter-Details h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* Text please enter details*/
+#Please{
+    text-align: center;
+    font-size: small;
+    opacity: 0.65;
+}
+
+/*------------------------------------------------Email Field Start------------------------------------------------*/
+#email{
+    font-size: small;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#email-id{
+    font-size: medium;
+    margin-top: 18px;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+}
+/*------------------------------------------------Email Field End--------------------------------------------------*/
+
+
+/*----------------------------------------------Password Field Start-----------------------------------------------*/
+#password{
+    font-size: small;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#pass-key{
+    font-size: medium;
+    margin-top: 18px;
+    margin-left: 50px;
+    margin-right: 150px;
+    border: none;
+    outline: none;
+}
+#hide-unhide-button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.45;
+}
+/*-----------------------------------------------Password Field End------------------------------------------------*/
+
+/* Horizontal Lines */ 
+.Enter-Details hr{
+    width: 26rem;
+    margin: 4px 50px 0;
+}
