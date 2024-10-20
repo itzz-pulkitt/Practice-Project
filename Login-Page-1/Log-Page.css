@@ -12,10 +12,9 @@
 .Login-Page{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg,#ffafbd,#ffc3a0);
+    background: linear-gradient(#ffafbd,#ffc3a0);
     padding: 10px;
 }
-
 
 /*--------------------------------------------------Child 1 Start--------------------------------------------------*/
 .Enter-Details{
@@ -23,7 +22,7 @@
     max-width: 540px;
     background: white;
     margin: 75px auto 20px;
-    padding-bottom: 220px;
+    padding-bottom: 180px;
     border-radius: 10px;
     padding-top: 1px; /*isko dene ke baad niche margin apply hua nhi diya tha toh apply kyu nhi huya margin niche*/
 }
@@ -71,7 +70,7 @@
 /*----------------------------------------------Password Field Start-----------------------------------------------*/
 #password{
     font-size: small;
-    margin-top: 50px;
+    margin-top: 37px;
     margin-left: 50px;
 }
 #pass-key{
@@ -95,4 +94,35 @@
 .Enter-Details hr{
     width: 26rem;
     margin: 4px 50px 0;
+}
+
+/*-------------------------------------------Forget And Remember Start---------------------------------------------*/
+#Remember{
+    margin-left: 50px;
+    margin-top: 25px;
+    outline: none;
+}
+#Rem-Me-Text{
+    opacity: 0.8;
+    user-select: none;
+}
+#Forget-Pass{
+    opacity: 0.45;
+    margin-left: 182px;
+    cursor: pointer;
+}
+/*--------------------------------------------Forget And Remember End----------------------------------------------*/
+
+#Log-Button{
+    height: 32px;
+    width: 26rem;
+    margin-top: 22px;
+    margin-left: 50px;
+    outline: none;
+    color: white;       /*to change the color of text of the button */
+    background: black;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
 }
